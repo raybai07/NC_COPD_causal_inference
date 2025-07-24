@@ -15,7 +15,7 @@ This folder contains code to implement the model with median income (log-transfo
 * `Car_Stage_2_income.R`: Implements the Stage 2 outcome regression model for estimating the causal relative risk of median income on the number of COPD ED visits
 * `get_exposure_response_curve_income.R`: This estimates the causal exposure-response curve for the average causal effect of median income on the number of COPD ED visits
 * `GPS_CAR_model.stan`: MCMC sampler for fitting the Stage 1 GPS model
-* `outcome_CAR_mode.stan`: MCMC sampler for fitting the Stage 2 outcome regression 
+* `outcome_CAR_model.stan`: MCMC sampler for fitting the Stage 2 outcome regression 
 
 ## Vape shop density as exposure
 This folder contains code to implement the model with vape shop density (zero-truncated and log-transformed) as the exposure. All files in this folder must be saved in the SAME local directory for the code to run. The main scripts are as follows:
@@ -23,7 +23,7 @@ This folder contains code to implement the model with vape shop density (zero-tr
 * `Car_Stage_2_vape_shops.R`: Implements the Stage 2 outcome regression model for estimating the causal relative risk of vape shpo density on the number of COPD ED visits
 * `get_exposure_response_curve_vape_shops.R`: This estimates the causal exposure-response curve for the average causal effect of vape shop density on the number of COPD ED visits
 * `GPS_CAR_model.stan`: MCMC sampler for fitting the Stage 1 GPS model
-* `outcome_CAR_mode.stan`: MCMC sampler for fitting the Stage 2 outcome regression model
+* `outcome_CAR_model.stan`: MCMC sampler for fitting the Stage 2 outcome regression model
 
 ## Visualization and test for spatial autocorrelation
 This folder contains code to make heatmaps of the COPD ED visit rate, median income (log-transformed), and vape shop density (zero-truncated and log-transformed) for the counties in North Carolina. The code also conducts the global Moran's I test for positive spatial autocorrelation for each of these variables. The main script is:
