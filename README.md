@@ -26,5 +26,5 @@ This folder contains code to implement the model with vape shop density (zero-tr
 * `outcome_CAR_mode.stan`: MCMC sampler for fitting the Stage 2 outcome regression model
 
 ## Visualization and test for spatial autocorrelation
-This folder contains code to make heatmaps of the COPD ED visit rate, median income (log-transformed), and vape shop density (zero-truncated and log-transformed) for all 100 North Carolina counties. The code also conducts the global Moran's I test for positive spatial autocorrelation for each of these variables. The main script is:
+This folder contains code to make heatmaps of the COPD ED visit rate, median income (log-transformed), and vape shop density (zero-truncated and log-transformed) for the counties in North Carolina. The code also conducts the global Moran's I test for positive spatial autocorrelation for each of these variables. The main script is:
 * `heatmaps_and_Morans_I.R`: Makes the heatmaps and conducts the global Moran's I tests
