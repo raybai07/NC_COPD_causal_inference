@@ -1,4 +1,4 @@
-# Code to estimate causal effects for COPD Emergency Department visits
+# Estimating causal effects for COPD Emergency Department visits
 This repository contains code for a Bayesian spatial causal inference model. Our model estimates the causal effects of county-level exposures on the number of chronic obstructive pulmonary disease (COPD) emergency department (ED) visits. The dataset comes from the counties in North Carolina in 2023. 
 
 ## Packages Required
