@@ -3,7 +3,7 @@ This repository contains code for a Bayesian spatial causal inference model. Our
 
 ## Packages Required
 
-In order to get this code to run, you must have a version of R >= 3.5.0 installed. It would be ideal to have the most recent version of R. You must first install the R packages that appear in the lines `library(...)` in these R scripts. Most of these can be installed using the R command line or the RStudio console or GUI. You also need to install `rstan'. To install `rstan`, you must first configure your R installation to be able to compile C++ code. See [here](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started) for instructions. Once the C++ toolchain is configured, you can then install `rstan` using 
+In order to get this code to run, you must have a version of R >= 3.5.0 installed. It would be ideal to have the most recent version of R. You must install the R packages that appear in the lines `library(...)` to run these R scripts. Most of these can be installed using the R command line or the RStudio console or GUI. You also need to install `rstan`. To install `rstan`, you must first configure your R installation to be able to compile C++ code. See [here](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started) for instructions. Once the C++ toolchain is configured, you can then install `rstan` using 
 
 ```
 install.packages("rstan", repos = "https://cloud.r-project.org/", dependencies = TRUE)
